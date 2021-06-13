@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout2</title>
+    <style>
+        body {
+            background-color: #b3e5fc;
+        }
+        #wrap {
+            width: 1000px;
+            height: 900px;
+            margin: 0 auto;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 40px;
+        }
+        #header {
+            background-color: #29b6f6;
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+        }
+        #nav {
+            background-color: #0277bd;
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+        }
+        #side_left {
+            background-color: #0288d1;
+            height: 600px;
+            float: left;
+            width: 300px;
+            line-height: 600px;
+        }
+        #contents {
+            background-color: #039be5;
+            height: 600px;
+            float: left;
+            width: 400px;
+            line-height: 600px;
+        }
+        #side_right {
+            background-color: #03a9f4;
+            height: 600px;
+            float: left;
+            width: 300px;
+            line-height: 600px;
+        }
+        #footer {
+            background-color: #29b6f6;
+            width: 1000px;
+            height: 100px;
+            /* float: left; */
+            clear: both; /* footer에 float: left;를 해주면 그 아래 요소에도 모두 float을 해주어야 한다.
+                           float 속성을 방지하기 위해 만들어진 clear: both; 를 사용하자. */
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="side_left">side_left</div>
+        <div id="contents">contents</div>
+        <div id="side_right">side_right</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
