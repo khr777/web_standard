@@ -74,7 +74,7 @@
     width: 990px;
     height: inherit;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.3);
+    /* background: rgba(255, 255, 255, 0.3); */
 }
 
 /* 헤더 */
@@ -98,9 +98,29 @@
 }
 
 .header .header-title {
+    text-align: center;
+}
 
+.header .header-title h1 {
+    background-color: #4aa8d4;
+    font-size: 28px;
+    padding: 5px 20px 6px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.header .header-title a {
+    display: inline-block;
+    background-color: #2698cb;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 20px 6px 20px;
+    margin-top: -5px;
 }
 
 .header .header-icon {
-    
+
 }
